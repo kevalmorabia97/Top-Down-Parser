@@ -50,5 +50,4 @@ curr_sym:4, Stack: $ A B 4
 curr_sym:$, Stack: $ A B 
 curr_sym:$, Stack: $ A 
 curr_sym:$, Stack: $ 
-1
-
+Valid
