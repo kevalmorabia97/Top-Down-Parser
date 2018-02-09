@@ -18,4 +18,9 @@ A -> +TA | -TA | e
 T -> FB
 B -> *FB | /FB | e
 F -> 0|1|2|3|4|5|6|7|8|9
+There are total 18 rules and starting Non Terminal symbol is E.
+
+The Input should end with '$' example: 5+6/7*8-9+8$
 ```
+
+See the Example.txt for more understanding of using the parser
