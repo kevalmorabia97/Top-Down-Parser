@@ -1,0 +1,54 @@
+Enter number of rules:18
+
+Enter rules in the form AB+C meaning A->B+C
+ETA
+A+TA
+A-TA
+Ae
+TFB
+B*FB
+B/FB
+Be
+F0
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+
+Enter starting non terminal:E
+
+Enter input ending with $:5*7-8/9+4$     
+curr_sym:5, Stack: $ E 
+curr_sym:5, Stack: $ A T 
+curr_sym:5, Stack: $ A B F 
+curr_sym:5, Stack: $ A B 5 
+curr_sym:*, Stack: $ A B 
+curr_sym:*, Stack: $ A B F * 
+curr_sym:7, Stack: $ A B F 
+curr_sym:7, Stack: $ A B 7 
+curr_sym:-, Stack: $ A B 
+curr_sym:-, Stack: $ A 
+curr_sym:-, Stack: $ A T - 
+curr_sym:8, Stack: $ A T 
+curr_sym:8, Stack: $ A B F 
+curr_sym:8, Stack: $ A B 8 
+curr_sym:/, Stack: $ A B 
+curr_sym:/, Stack: $ A B F / 
+curr_sym:9, Stack: $ A B F 
+curr_sym:9, Stack: $ A B 9 
+curr_sym:+, Stack: $ A B 
+curr_sym:+, Stack: $ A 
+curr_sym:+, Stack: $ A T + 
+curr_sym:4, Stack: $ A T 
+curr_sym:4, Stack: $ A B F 
+curr_sym:4, Stack: $ A B 4 
+curr_sym:$, Stack: $ A B 
+curr_sym:$, Stack: $ A 
+curr_sym:$, Stack: $ 
+1
+
