@@ -87,7 +87,7 @@ int main(){
     cout << "\nEnter input ending with $:";
    	cin >> input;
    	
-   	cout << check_if_valid(input, rules, no_rules, start_non_term) << endl;
+   	cout << (check_if_valid(input, rules, no_rules, start_non_term)?"Valid":"Not Valid") << endl;
     return 0;
 }
 
