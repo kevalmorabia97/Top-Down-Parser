@@ -23,4 +23,4 @@ There are total 18 rules and starting Non Terminal symbol is E.
 The Input should end with '$' example: 5+6/7*8-9+8$
 ```
 
-See the Example.txt for more understanding of using the parser
+See the Example.txt file for more understanding of using the parser
